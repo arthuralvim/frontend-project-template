@@ -1,0 +1,12 @@
+{
+  "name": "frontend",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.1.0",
+    "jquery": "~1.11.0",
+    "holderjs": "~2.3.2",
+    "font-awesome": "~4.1.0",
+    "animate.css": "~3.3.0"
+  },
+  "devDependencies": {}
+}

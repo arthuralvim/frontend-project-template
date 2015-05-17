@@ -4,6 +4,18 @@
 
 ## RUN
 
+### Dependencies
+
+```bash
+ $ npm install -g grunt-cli
+ $ npm install -g bower
+```
+
+### Packages
+
+```bash
+ $ bower install <package name> --save
+```
 ### Build
 
 ```bash
