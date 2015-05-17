@@ -55,3 +55,24 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# Frontend app
+
+!frontend/app/404.html
+*.db
+*.log
+*.pyc
+*.sqlite3
+*.sublime-workspace
+*.todo
+*~
+.DS_Store
+.env
+.sass-cache
+.tmp
+.vagrant
+bower_components
+node_modules
+dist
+frontend/app/**/*.html
+frontend/app/styles/fonts/
