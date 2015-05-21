@@ -6,9 +6,19 @@
 
 ### Dependencies
 
+Install GRUNT and BOWER
+
 ```bash
  $ npm install -g grunt-cli
  $ npm install -g bower
+```
+
+Install SASS
+
+```bash
+ $ apt-get install ruby-full rubygems
+ $ gem install sass
+ $ gem install compass
 ```
 
 ### Packages
