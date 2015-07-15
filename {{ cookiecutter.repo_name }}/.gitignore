@@ -47,11 +47,8 @@ coverage.xml
 *.mo
 *.pot
 
-# Log:
+# Django stuff:
 *.log
-
-# Mac OSX
-.DS_Store
 
 # Sphinx documentation
 docs/_build/
@@ -59,10 +56,23 @@ docs/_build/
 # PyBuilder
 target/
 
-# Deploy
-.vagrant
+# {{ cookiecutter.repo_name }} app
 
-# {{ project_name }}
+*.db
+*.log
+*.pyc
+*.sqlite3
+*.sublime-workspace
+*.todo
+*~
+.DS_Store
 .env
-output/
-media/
+.sass-cache
+.tmp
+.vagrant
+bower_components
+node_modules
+dist
+!{{ cookiecutter.repo_name }}/app/404.html
+{{ cookiecutter.repo_name }}/app/**/*.html
+{{ cookiecutter.repo_name }}/app/styles/fonts/

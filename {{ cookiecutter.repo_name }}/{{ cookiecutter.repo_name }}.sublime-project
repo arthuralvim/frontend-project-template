@@ -1,0 +1,21 @@
+// {{ cookiecutter.repo_name }}.sublime-project
+
+{
+    "folders":
+    [
+        {
+            "follow_symlinks": true,
+            "path": "."
+        }
+    ],
+    "settings": {
+        "python_interpreter_path": "~/.virtualenvs/{{ cookiecutter.repo_name }}/bin/python",
+
+        "python_package_paths": [
+            "~/.virtualenvs/{{ cookiecutter.repo_name }}/lib/python2.7/site-packages/"
+            ]
+    },
+    "SublimeLinter": {
+        "@python": 2
+    }
+}

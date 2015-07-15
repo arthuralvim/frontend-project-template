@@ -1,0 +1,4 @@
+{% raw %}{
+    "title": "{% endraw %}{{ cookiecutter.repo_name }}{% raw %}",
+    "message": "Some Message..."
+}{% endraw %}
